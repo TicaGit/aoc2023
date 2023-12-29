@@ -1,6 +1,8 @@
 colors = ["red", "green", "blue"]
 max_colors = {"red": 12, "green": 13, "blue": 14}
 
+from utils import read_input
+
 
 class Solution:
     def __init__(self):
@@ -65,6 +67,7 @@ class Solution:
 
 if __name__ == "__main__":
     sol = Solution()
+    inp = read_input("data/02dec.txt")
     sol.read_input()
     # sol.solve()  # 2593
     sol.solve2()  # 54699

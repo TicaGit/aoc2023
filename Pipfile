@@ -5,7 +5,11 @@ name = "pypi"
 
 [packages]
 numpy = "*"
+tqdm = "*"
+
 [dev-packages]
 black = "*"
+isort = "*"
+
 [requires]
 python_version = "3.9"
